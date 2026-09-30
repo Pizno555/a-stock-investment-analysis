@@ -1,12 +1,7 @@
 interface:
   display_name: "A股投资分析"
-  short_description: "分析A股基本面、财务、业绩、估值、情景、风险与投资结论"
-  default_prompt: "使用 $a-stock-investment-analysis 分析这只A股；可指定快速分析、专项分析或完整深度报告，未指定时选择最小充分分析范围。"
+  short_description: "完整股票研究：证据核验、财务、预测、估值、Price-in与投资判断；全球股票，A股强化"
+  default_prompt: "Use $a-stock-investment-analysis to conduct complete evidence-driven equity research, including evidence verification, financial analysis, forecast/scenarios, peer comparison, valuation, market expectations/price-in, counterevidence, and a conditional research-to-action judgment."
 
-# 如果 Skill 希望系统自动触发
 policy:
   allow_implicit_invocation: true
-
-# 如果 Skill 只希望在点名时调用
-# policy:
-#   allow_implicit_invocation: false
